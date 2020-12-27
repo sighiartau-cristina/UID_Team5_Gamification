@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="" />
+    <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_page/student_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_page/student_page.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +31,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,12 +61,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\pages" />
-      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\login_page" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\login_page" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Trousers_icons" />
+      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Tshirt_icons" />
+      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\shoes_icons" />
+      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons" />
+      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,6 +84,8 @@
       <workItem from="1608651159468" duration="2257000" />
       <workItem from="1608662883588" duration="601000" />
       <workItem from="1608800048305" duration="634000" />
+      <workItem from="1609060395554" duration="3399000" />
+      <workItem from="1609090712818" duration="6206000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,82 @@
+#sections {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#sections > div {
+    padding: 30px;
+}
+
+.tshirt_img {
+    float: left;
+}
+
+#tshirt_section_products{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+#trousers_section_products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#shoes_section_products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.tshirt_item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trousers_item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shoes_item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buy_btn {
+    width: 100px;
+    background-color: #4e555b;
+    color: white;
+}
+
+.buy_btn:hover{
+    background-color: #1c7430;
+    color: red;
+}
+
+#available_tokens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#available_tokens > #notification {
+    background-color: #0f6674;
+    color: white;
+    float: right;
+    border-style: dashed;
+    border-width: 3px;
+    border-color: red;
+}
+
+
