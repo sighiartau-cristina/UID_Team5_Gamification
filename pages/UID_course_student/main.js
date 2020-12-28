@@ -14,7 +14,7 @@ $(document).ready(function() {
         e.preventDefault()
         if(quizKey.val()==="quiz1"){
             $( "#incorrectKey" ).css("visibility", "hidden");
-            alert("Redirect to quiz");
+            window.location.href ='../student_quiz/quiz.html'
         }
         else{
             $( "#incorrectKey" ).css("visibility", "visible");
