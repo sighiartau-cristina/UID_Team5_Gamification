@@ -8405,4 +8405,20 @@ a[data-toggle="collapse"] {
   height:30px;
 }
 
+.quizpopup{
+  position: relative;
+  background-color: var(--cyan);
+  height:150px;
+  width:250px;
+  text-align: center;
+  vertical-align: center;
+  color:black;
+  padding:2%;
+  margin-left: 300px;
+  top:-17px;
+}
 
+.quizpopup >button{
+  padding:1px;
+  border-radius: 5px;;
+}
