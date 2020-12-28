@@ -8348,3 +8348,61 @@ a[data-toggle="collapse"] {
   text-align: center;
  }
 
+ .course-header-group{
+  height:100px;
+  border-top: 50px;
+  display: inline-block;
+ }
+
+ .course-header-group>h4{
+  color:gray;
+ }
+
+ .course-header-group>h2{
+  font-weight: bold;
+ }
+
+ .course-header{
+  height:100px;
+   display: inline-block;
+ }
+
+ .course-logo{
+   height:90px;
+   width:90px;
+   float:left
+ }
+
+ .link{
+   color: var(--blue);
+   text-decoration: underline;
+ }
+
+ .week-act{
+   line-height: 15px;
+}
+
+.week-act>h4{
+  padding-left: 40px;
+}
+
+.week-act>ul>li{
+  padding-left: 40px;
+  font-size: 22px;
+}
+
+.week-act>ul>li>ul>li>a{
+  color:black;
+}
+
+.week-act>button{
+  padding-left: 40px;
+  display: inline-block;
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5%;
+  height:30px;
+}
+
+
