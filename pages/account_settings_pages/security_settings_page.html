@@ -1,15 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Boutique: clothes</title>
+    <title>Settings: security</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/clothes_style.css">
+
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../../css/style.css">
 
-    <script src="js/clothes.js"></script>
     <script src="../../js/jquery.min.js"></script>
     <script src="../../js/popper.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
@@ -21,7 +20,7 @@
 <div class="wrapper d-flex align-items-stretch">
     <nav id="sidebar">
         <div class="p-4 pt-5">
-            <div id=userName>Name</div>
+            <div id=userName>Student</div>
             <div class="img logo rounded-circle mb-5" style="background-image: url(../../images/avatar.jpg)"></div>
             <ul class="list-unstyled components mb-5">
                 <li>
@@ -76,16 +75,16 @@
                     <a href="#accountSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Account Settings</a>
                     <ul class="collapse list-unstyled" id="accountSubmenu">
                         <li>
-                            <a href="#">Customize your avatar</a>
+                            <a href="../account_settings_pages/customize_avatar_page.html">Customize your avatar</a>
                         </li>
                         <li>
-                            <a href="#">Security settings</a>
+                            <a href="../account_settings_pages/security_settings_page.html">Security settings</a>
                         </li>
                         <li>
-                            <a href="#">Permissions</a>
+                            <a href="../account_settings_pages/permissions_page.html">Permissions</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a href="../account_settings_pages/about_page.html">About</a>
                         </li>
                     </ul>
                 </li>
@@ -141,109 +140,7 @@
             </div>
         </nav>
         <div>
-            <div>
-                <div id="available_tokens">
-                    Available tokens: 100
-                </div>
-
-                <div id="notification">
-                    Next boutique refill: 1/1/2022
-                    <span><i class="fa fa-times-circle"></i></span>
-                </div>
-            </div>
-            <div id="sections">
-                <div id="tshirt_section">
-                    <div id="tshirt_section_title">
-                        <img class="tshirt_img" src='../../images/icons/Tshirt_logo.png'/>
-                        <p class="tshirt_title">T-Shirts</p>
-                    </div>
-                    <div id="tshirt_section_products">
-                        <div class="tshirt_item">
-                            <img src="../../images/icons/Tshirt_icons/Tshirt_1.png"/>
-                            <label>50 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="tshirt_item">
-                            <img src="../../images/icons/Tshirt_icons/Tshirt_2.png"/>
-                            <label>50 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="tshirt_item">
-                            <img src="../../images/icons/Tshirt_icons/Tshirt_3.png"/>
-                            <label>50 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                    </div>
-                </div>
-                <div id="trousers_section">
-                    <div id="trousers_section_title">
-                        <img class="tshirt_img" src='../../images/icons/trousers.png'/>
-                        <p class="tshirt_title">Trousers</p>
-                    </div>
-                    <div id="trousers_section_products">
-                        <div class="trousers_item">
-                            <img src="../../images/icons/Trousers_icons/Trousers_1.png"/>
-                            <label>75 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="trousers_item">
-                            <img src="../../images/icons/Trousers_icons/Trousers_2.png"/>
-                            <label>75 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="trousers_item">
-                            <img src="../../images/icons/Trousers_icons/Trousers_3.png"/>
-                            <label>75 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="trousers_item">
-                            <img src="../../images/icons/Trousers_icons/Trousers_4.png"/>
-                            <label>75 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-
-                    </div>
-                </div>
-                <div id="shoes_section">
-                    <div id="shoes_section_title">
-                        <img class="tshirt_img" src='../../images/icons/shoes.png'/>
-                        <p class="tshirt_title">Shoes</p>
-                    </div>
-                    <div id="shoes_section_products">
-                        <div class="shoes_item">
-                            <img src="../../images/icons/shoes_icons/Shoes_1.png"/>
-                            <label>50 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="shoes_item">
-                            <img src="../../images/icons/shoes_icons/Shoes_2.png"/>
-                            <label>40 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="shoes_item">
-                            <img src="../../images/icons/shoes_icons/Shoes_3.png"/>
-                            <label>50 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="shoes_item">
-                            <img src="../../images/icons/shoes_icons/Shoes_4.png"/>
-                            <label>80 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="shoes_item">
-                            <img src="../../images/icons/shoes_icons/Shoes_5.png"/>
-                            <label>50 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                        <div class="shoes_item">
-                            <img src="../../images/icons/shoes_icons/Shoes_6.png"/>
-                            <label>50 Tokens</label>
-                            <button class="buy_btn"> BUY </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
+            security
         </div>
     </div>
 </div>

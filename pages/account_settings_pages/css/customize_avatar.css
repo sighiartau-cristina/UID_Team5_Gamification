@@ -1,3 +1,19 @@
+#main_div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#left_div {
+    width: 50%;
+}
+
+#right_div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
 #sections {
     display: flex;
     justify-content: space-between;
@@ -20,12 +36,6 @@
 
 }
 
-#trousers_section_products {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
 #shoes_section_products {
     display: flex;
     justify-content: space-evenly;
@@ -39,13 +49,6 @@
     align-items: center;
 }
 
-.trousers_item {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
 .shoes_item {
     display: flex;
     justify-content: center;
@@ -53,30 +56,24 @@
     align-items: center;
 }
 
-.buy_btn {
+.equip_btn {
     width: 100px;
-    background-color: #4e555b;
-    color: white;
+    background-color: #c69500;
+    color: blue;
 }
 
-.buy_btn:hover{
-    background-color: #1c7430;
+.equip_btn:hover{
+    background-color: #856404;
     color: red;
 }
 
-#available_tokens {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.unequip_btn {
+    width: 100px;
+    background-color: #6f42c1;
+    color: yellow;
 }
 
-#notification {
-    background-color: #0f6674;
-    color: white;
-    float: right;
-    border-style: dashed;
-    border-width: 3px;
-    border-color: red;
+.unequip_btn:hover{
+    background-color: #856404;
+    color: red;
 }
-
-
