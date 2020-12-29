@@ -8431,10 +8431,24 @@ a[data-toggle="collapse"] {
   border-radius: 15px;
   color:black;
   display: inline-block;
+  overflow-y:auto;
+  max-height: 500px;
 }
 
 .question-backround>input{
   margin-left: 20px;
+}
+
+.question-backround>img{
+  position: relative; 
+  top:-10px;
+}
+
+.question-backround>h1{
+  font-size:40px; font-weight: bold; display: inline-block; padding-top: 15px; padding-left: 10px;
+}
+.question-backround>label{
+font-size: 25px; padding-left: 10px;
 }
 
 .progress-bar{
