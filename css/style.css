@@ -8599,3 +8599,8 @@ button {
   width:250px;
   height:250px;
 }
+
+.tshirt_item>img, .trousers_item>img, .shoes_item>img{
+  height:100px;
+  width:100px;
+}

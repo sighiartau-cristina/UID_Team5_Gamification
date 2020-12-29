@@ -58,12 +58,12 @@
 
 .equip_btn {
     width: 100px;
-    background-color: #c69500;
-    color: blue;
+    background-color: #728dc0;
+    color: rgb(12, 12, 143);
 }
 
 .equip_btn:hover{
-    background-color: #856404;
+    background-color: #1e3496;
     color: red;
 }
 
@@ -74,6 +74,6 @@
 }
 
 .unequip_btn:hover{
-    background-color: #856404;
+    background-color:#1e3496;
     color: red;
 }
