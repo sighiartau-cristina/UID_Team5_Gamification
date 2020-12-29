@@ -57,7 +57,7 @@ function nextPrev(n) {
   // if you have reached the end of the form...
   if (currentTab >= x.length) {
     // ... the form gets submitted:
-    //document.getElementById("regForm").submit();
+    window.location.href='../prof_UID_course/uid_course_prof.html'
     return false;
   }
   // Otherwise, display the correct tab:
@@ -140,7 +140,7 @@ function validateForm() {
 }
 
 function constructDiv(n) {
-  var qHeader = '<img src="../../images/icons/question-mark.png"><h1>Question ' + n + '</h1><br>'
+  var qHeader = '<img src="../../../images/icons/question-mark.png"><h1>Question ' + n + '</h1><br>'
   var selectList = '<label for="selectTypeList">Type: </label><select name="selectTypeList" id="selectTypeQ' + n + '" onchange="selectType(' + n + ')">' +
     '<option value="unserInput">User input</option>' +
     '<option value="multipleChoice">Multiple choice</option>' +

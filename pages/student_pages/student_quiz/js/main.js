@@ -21,11 +21,11 @@ window.onclick = function(event) {
 }
 
 document.getElementById("boutiqueBtn").onclick = function(){
-  window.location.href ='../boutique_pages/clothes_page.html'
+  window.location.href ='../../boutique_pages/clothes_page.html'
 };
 
 document.getElementById("closeBtn").onclick = function(){
-  window.location.href ='../UID_course_student/uid_course_student.html'
+  window.location.href ='../student_UID_course/uid_course_student.html'
 };
 
 document.getElementById("reviewBtn").onclick = function(){

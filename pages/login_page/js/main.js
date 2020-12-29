@@ -80,11 +80,11 @@
         e.preventDefault()
         if(username_input.val() == 'student' && password_input.val() == 'student')
         {
-            window.location.href = '../student_page/student_page.html'
+            window.location.href = '../student_pages/student_page/student_page.html'
         }
         if(username_input.val() == 'teacher' && password_input.val() == 'teacher')
         {
-            window.location.href = '../teacher_page/teacher_page.html'
+            window.location.href = '../professor_pages/prof_page/prof_page.html'
         }
 
     })

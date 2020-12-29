@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Teacher page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../css/style.css">
+
+  <script src="../../../js/jquery.min.js"></script>
+  <script src="../../../js/popper.js"></script>
+  <script src="../../../js/bootstrap.min.js"></script>
+  <script src="../../../js/main.js"></script>
+  <script src="main.js"></script>
+</head>
+
+<body>
+
+  <div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+      <div class="p-4 pt-5">
+        <div id=userName>Name</div>
+        <div class="img logo rounded-circle mb-5" style="background-image: url(../../../images/avatar.jpg)"></div>
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="#boutiqueSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Boutique</a>
+            <ul class="collapse list-unstyled" id="boutiqueSubmenu">
+              <li>
+                <a href="../../boutique_pages/clothes_page.html">Clothes</a>
+              </li>
+              <li>
+                <a href="../../boutique_pages/accessories_page.html">Accessories</a>
+              </li>
+              <li>
+                <a href="../../boutique_pages/quotes_page.html">Quotes</a>
+              </li>
+              <li>
+                <a href="../../boutique_pages/outfits_page.html">Outfits</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#coursesSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Courses</a>
+            <ul class="collapse list-unstyled" id="coursesSubmenu">
+              <li>
+                <a href="../student_UID_course/uid_course_student.html">User Interface Design</a>
+              </li>
+              <li>
+                <a href="#">Database Design</a>
+              </li>
+              <li>
+                <a href="#">Distributed Systems</a>
+              </li>
+              <li>
+                <a href="#">Project Management</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#appointmentsSubmenu" data-toggle="collapse" aria-expanded="false"
+              class="dropdown-toggle">Appointments</a>
+            <ul class="collapse list-unstyled" id="appointmentsSubmenu">
+              <li>
+                <a href="#">Withdraw documents</a>
+              </li>
+              <li>
+                <a href="#">Submit documents</a>
+              </li>
+              <li>
+                <a href="#">Organizatoric reasons</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#accountSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Account
+              Settings</a>
+            <ul class="collapse list-unstyled" id="accountSubmenu">
+              <li>
+                <a href="../../account_settings_pages/customize_avatar_page.html">Customize your avatar</a>
+              </li>
+              <li>
+                <a href="../../account_settings_pages/security_settings_page.html">Security settings</a>
+              </li>
+              <li>
+                <a href="../../account_settings_pages/permissions_page.html">Permissions</a>
+              </li>
+              <li>
+                <a href="../../account_settings_pages/about_page.html">About</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <button id="sidebarCollapse" class="btn btn-primary">Logout</button>
+        <div class="footer">
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with
+            <i class="icon-heart" aria-hidden="true" style="color:#5fa7f3"></i> by <a style="color:#5fa7f3"
+              href="https://colorlib.com" target="_blank">Colorlib.com</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div style="color: black;">Menu</div>
+          <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="height:60px">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item">
+                <div class="navbar-pair">
+                  <img class="navbar-logo" src='../../../images/icons/messages.PNG' />
+                  <a class="nav-link" href="#">Messages</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="navbar-pair">
+                  <img class="navbar-logo" src='../../../images/icons/quizzes_assignments.PNG' />
+                  <a class="nav-link" href="../aux-pages/quiz-and-assig-page.html"
+                    style="width:30px; line-height: 1;">Quizzes& Assignments</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="navbar-pair">
+                  <img class="navbar-logo" src='../../../images/icons/courses.PNG' />
+                  <a class="nav-link current" href="../aux-pages/courses-page.html">Courses</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="navbar-pair">
+                  <img class="navbar-logo" src='../../../images/icons/home.PNG' />
+                  <a class="nav-link" href="../student_page/student_page.html">Home</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="course-header">
+        <img class="course-logo" src="../../../images/icons/UID_logo.png" />
+        <div class="course-header-group">
+          <h2>User Interface Design</h2>
+          <h4>Professor: Dorian Gorgan</h4>
+        </div>
+      </div>
+
+      <div>
+        <a style="text-decoration: underline; color:cornflowerblue" href="#">
+          <h2> <img src="../../../images/icons/course-forum-logo.png"> Forum</h2>
+        </a>
+      </div>
+
+      <h2>Upcoming activities: <a id="upcomingAct" class="link" href="#">Week 1 Quiz </a></h2>
+      <div class="quizpopup" id="quizpopup">Enter the key:
+        <input type="text" id="quizKey">
+        <button id="startQuiz">Start Quiz >>></button>
+        <p style="visibility: hidden; color:red" id="incorrectKey">The quiz key is incorrect.</p>
+      </div>
+
+      <hr>
+
+      <div class="week-act">
+        <h2>This week</h2>
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="#courseSubmenuw1" style="color:black" data-toggle="collapse" aria-expanded="false">Course: Tue 8-10
+              am <div style="font-size: 15px; display: inline;">▼</div></a>
+            <ul class="collapse list-unstyled" id="courseSubmenuw1">
+              <li>
+                <img src="../../../images/icons/lab-res-logo.png"><a href="#">Course Resources W1</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="list-unstyled components mb-5">
+          <li>
+            <a href="#labSubmenuw1" style="color:black" data-toggle="collapse" aria-expanded="false">Lab: Wed 8-11 am
+              <div style="font-size: 15px; display: inline;">▼</div></a>
+            <ul class="collapse list-unstyled" id="labSubmenuw1">
+              <li>
+                <img src="../../../images/icons/lab-work-logo.png"><a href="#">Lab Work W1</a>
+              </li>
+              <li>
+                <img src="../../../images/icons/lab-res-logo.png"><a href="#">Lab Resources W1</a>
+              </li>
+              <li>
+                <img src="../../../images/icons/lab-assig-logo.png"><a href="#">Lab Assignment Upload</a>
+              </li>
+              <li>
+                <img src="../../../images/icons/quiz-logo.png"><a href="#" onclick="confirmQuizKey()">Week 1 Quiz</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <hr>
+      <h2>Your badges for this course:</h2>
+      <h4 style="padding-left: 40px;">No badges yet ☹. Take some quizzes first and come back.</h4>
+    </div>
+  </div>
+</body>
+
+</html>

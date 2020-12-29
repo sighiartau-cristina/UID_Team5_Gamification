@@ -8,12 +8,12 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../../css/style.css">
 
-    <script src="../../js/jquery.min.js"></script>
-    <script src="../../js/popper.js"></script>
-    <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/main.js"></script>
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../../../js/popper.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/main.js"></script>
     <script src="js/main.js"></script>
 </head>
 
@@ -23,7 +23,8 @@
         <nav id="sidebar">
             <div class="p-4 pt-5">
                 <div id=userName>Dorian Gorgan</div>
-                <div class="img logo rounded-circle mb-5" style="background-image: url(../../images/prof_avatar.png)">
+                <div class="img logo rounded-circle mb-5"
+                    style="background-image: url(../../../images/prof_avatar.png)">
                 </div>
                 <ul class="list-unstyled components mb-5">
                     <li>
@@ -31,7 +32,7 @@
                             class="dropdown-toggle">Courses</a>
                         <ul class="collapse list-unstyled" id="coursesSubmenu">
                             <li>
-                                <a href="#">User Interface Design</a>
+                                <a href="../prof_UID_course/uid_course_prof.html">User Interface Design</a>
                             </li>
                             <li>
                                 <a href="#">Graphical Processing Systems</a>
@@ -92,27 +93,28 @@
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item">
                                 <div class="navbar-pair">
-                                    <img class="navbar-logo" src='../../images/icons/messages.PNG' />
+                                    <img class="navbar-logo" src='../../../images/icons/messages.PNG' />
                                     <a class="nav-link" href="#">Messages</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <div class="navbar-pair">
-                                    <img class="navbar-logo" src='../../images/icons/quizzes_assignments.PNG' />
-                                    <a class="nav-link current" href="#" style="width:105%; line-height: 1;">Quizzes&
+                                    <img class="navbar-logo" src='../../../images/icons/quizzes_assignments.PNG' />
+                                    <a class="nav-link current" href="../aux_pages/quiz-and-assig-page.html"
+                                        style="width:105%; line-height: 1;">Quizzes&
                                         Assignments</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <div class="navbar-pair">
-                                    <img class="navbar-logo" src='../../images/icons/courses.PNG' />
-                                    <a class="nav-link" href="#">Courses</a>
+                                    <img class="navbar-logo" src='../../../images/icons/courses.PNG' />
+                                    <a class="nav-link" href="../aux_pages/courses-page.html">Courses</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <div class="navbar-pair">
-                                    <img class="navbar-logo" src='../../images/icons/home.PNG' />
-                                    <a class="nav-link" href="#">Home</a>
+                                    <img class="navbar-logo" src='../../../images/icons/home.PNG' />
+                                    <a class="nav-link" href="../prof_page/prof_page.html">Home</a>
                                 </div>
                             </li>
                         </ul>
@@ -139,13 +141,15 @@
                             <label style="font-size: 20px;" for="minQ">(minutes)</label>
                             <h2 style="text-align: left; font-weight: bold; padding:10px">Quiz badges:</h2>
                             <input type="file" id="img" name="img" accept="image/*">
-                            <p id="emptyInput" style="padding-left:20px; color:red; visibility: hidden;">Please fill out all inputs.</p>
-                            <p id="notNumber" style="padding-left:20px; color:red; visibility: hidden;">Value is not a valid number.</p>
+                            <p id="emptyInput" style="padding-left:20px; color:red; visibility: hidden;">Please fill out
+                                all inputs.</p>
+                            <p id="notNumber" style="padding-left:20px; color:red; visibility: hidden;">Value is not a
+                                valid number.</p>
                         </div>
                     </div>
                     <div class="tab">
                         <div class="question-backround">
-                            <img src="../../images/icons/question-mark.png">
+                            <img src="../../../images/icons/question-mark.png">
                             <h1>Question 1</h1>
                             <br>
                             <label for="selectTypeList">Type: </label>
@@ -161,21 +165,24 @@
                             <label id="textQ1">Question:</label>
                             <input id="textQ1" type="text"></input>
                             <hr>
-                            <h2 style="position:absolute; text-align: center; padding-left: 10px; visibility: hidden;" id="noAnsQ1">No need to provide an answer.</h2>
+                            <h2 style="position:absolute; text-align: center; padding-left: 10px; visibility: hidden;"
+                                id="noAnsQ1">No need to provide an answer.</h2>
                             <div style="position:absolute; padding-left: 10px; visibility: visible;" id="inputAnsQ1">
                                 <h2 style="text-align: center;">Please provide the answer:</h2>
                                 <input style="vertical-align: center;" id="inputQ1" type="text"></input>
                             </div>
                             <div style="position:absolute; padding-left: 10px; visibility: hidden;" id="multipleQ1">
                                 <h3 style="text-align: center;">Please add options and mark the correct ones:</h3>
-                                <button id="addAnsQ1"  type="button" onclick="addOptions(1)">+</button>
+                                <button id="addAnsQ1" type="button" onclick="addOptions(1)">+</button>
                                 <input style="vertical-align: center;" id="labelQ1" type="text"></input>
-                                <div style="overflow-y:auto; max-height: 100px;"class="answersQ1">
+                                <div style="overflow-y:auto; max-height: 100px;" class="answersQ1">
                                 </div>
                             </div>
                         </div>
-                        <p id="emptyInput1" style="padding-left:20px; color:red;visibility: hidden;">Please fill out all inputs.</p>
-                        <p id="notNumber1" style="padding-left:20px; color:red; visibility: hidden;">Value is not a valid number.</p>
+                        <p id="emptyInput1" style="padding-left:20px; color:red;visibility: hidden;">Please fill out all
+                            inputs.</p>
+                        <p id="notNumber1" style="padding-left:20px; color:red; visibility: hidden;">Value is not a
+                            valid number.</p>
                     </div>
                 </div>
                 <div style="overflow:auto;">
