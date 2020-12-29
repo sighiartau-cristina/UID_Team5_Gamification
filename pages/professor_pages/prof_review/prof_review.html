@@ -14,6 +14,7 @@
     <script src="../../../js/popper.js"></script>
     <script src="../../../js/bootstrap.min.js"></script>
     <script src="../../../js/main.js"></script>
+    <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -99,7 +100,8 @@
                             <li class="nav-item">
                                 <div class="navbar-pair">
                                     <img class="navbar-logo" src='../../../images/icons/quizzes_assignments.PNG' />
-                                    <a class="nav-link current" href="#" style="width:105%; line-height: 1;">Quizzes&
+                                    <a class="nav-link current" href="../aux_pages/quiz-and-assig-page.html"
+                                        style="width:105%; line-height: 1;">Quizzes&
                                         Assignments</a>
                                 </div>
                             </li>
@@ -120,18 +122,109 @@
                 </div>
             </nav>
 
-            <h2>Upcoming activities:</h2>
+            <h2>Quiz: Week 1 - Review</h2>
 
-            <a style="color:black; font-size: 25px; text-decoration: underline;" href="#"> User Interface Design: Quiz -
-                Week 2</a>
-            <br>
+            <div class="question-backround">
+                <table style="width: 90%; margin-left: 20px;">
+                    <tr>
+                        <th>Student</th>
+                        <th>Mark</th>
+                        <th>Review</th>
+                    </tr>
+                    <tr>
+                        <td>Albu Ioan</td>
+                        <td>6.20</td>
+                        <td><button onclick="startReview()">Review</button></td>
+                    </tr>
+                    <tr>
+                        <td>Aldea Bogdan</td>
+                        <td>7.50</td>
+                        <td><button onclick="startReview()">Review</button></td>
+                    </tr>
+                    <tr>
+                        <td>Bucur Anita</td>
+                        <td>10.00</td>
+                        <td><button onclick="startReview()">Review</button></td>
+                    </tr>
+                    <tr>
+                        <td>Frent Tudor</td>
+                        <td>4.50</td>
+                        <td><button onclick="startReview()">Review</button></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <button style="float:right;" onclick="goBack()">Go Back</button>
+            </div>
 
-            <hr>
-            <h3>Past activities:</h3>
-            <a style="color:black; font-size: 25px; text-decoration: underline;" href="../prof_review/prof_review.html"> User Interface Design: Quiz -
-                Week 1</a>
-            <br>
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Bucur Anita</h3>
+                    <div class="question-backround">
+                        <table style="width: 90%; margin-left: 20px;">
+                            <tr>
+                                <th>Q</th>
+                                <th>Option</th>
+                                <th>Mark</th>
+                            </tr>
+                            <tr>
+                                <td>Q1</td>
+                                <td>Option 1</td>
+                                <td>1.00</td>
+                            </tr>
+                            <tr>
+                                <td>Q2</td>
+                                <td>Option 3</td>
+                                <td>1.00</td>
+                            </tr>
+                            <tr>
+                                <td>Q3</td>
+                                <td>Option 1</td>
+                                <td>1.00</td>
+                            </tr>
+                            <tr>
+                                <td>Q4</td>
+                                <td>Option 2</td>
+                                <td>1.00</td>
+                            </tr>
+                            <tr>
+                                <td>Q5</td>
+                                <td>Option 2</td>
+                                <td>1.00</td>
+                            </tr>
+                            <tr>
+                                <td>Q6</td>
+                                <td>Option 4</td>
+                                <td>1.00</td>
+                            </tr>
+                            <tr>
+                                <td>Q7</td>
+                                <td>Option 3</td>
+                                <td>1.00</td>
+                            </tr>
+                            <tr>
+                                <td>Q8</td>
+                                <td>Option 1</td>
+                                <td>1.00</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <button id="goBack" style="float:right;">Go Back</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
+
 </body>
 
 </html>

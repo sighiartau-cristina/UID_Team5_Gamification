@@ -183,7 +183,8 @@ caption {
   caption-side: bottom; }
 
 th {
-  text-align: inherit; }
+  text-align: inherit;
+  padding:20px; }
 
 label {
   display: inline-block;
@@ -1339,6 +1340,7 @@ pre {
   .table td {
     padding: 0.75rem;
     vertical-align: top;
+    padding:20px;
     border-top: 1px solid #dee2e6; }
   .table thead th {
     vertical-align: bottom;
