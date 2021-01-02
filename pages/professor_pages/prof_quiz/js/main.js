@@ -58,6 +58,7 @@ function nextPrev(n) {
   if (currentTab >= x.length) {
     // ... the form gets submitted:
     window.location.href='../prof_UID_course/uid_course_prof.html'
+    alert("Quiz was successfully added!")
     return false;
   }
   // Otherwise, display the correct tab:
@@ -77,11 +78,19 @@ function addTabs(q) {
 
 function addOptions(n) {
   var lab = document.getElementById("labelQ" + n).value
-  var cont = ".answersQ" + n;
-  var divText = '<input type="checkbox" id="ansQ"' + n + '><label style="font-size: 20px;" id="ansQ' + n + 'label">' + lab + '</label><br>'
-  console.log(cont)
-  console.log(divText)
-  $(cont).append(divText);
+  var empty = "emptyInput" + n;
+
+  if((lab.trim().length!=0)){
+    document.getElementById(empty).style.visibility = "hidden";
+    var cont = ".answersQ" + n;
+    var divText = '<input type="checkbox" name="ansQ' + n + '"><label style="font-size: 20px;" id="ansQ' + n + 'label">' + lab + '</label><br>'
+    $(cont).append(divText);
+  }
+  else{
+    document.getElementById(empty).innerHTML = "Please input an answer.";
+    document.getElementById(empty).style.visibility = "visible";
+  }
+
   return false;
 }
 
@@ -93,46 +102,70 @@ function validateForm() {
   // A loop that checks every input field in the current tab:
 
   var empty = "emptyInput"
-  var notNum = "notNumber"
 
   document.getElementById(empty).style.visibility = "hidden";
-  document.getElementById(notNum).style.visibility = "hidden";
 
   if (currentTab == 0) {
     for (i = 0; i < y.length; i++) {
       // If a field is empty...
       if (y[i].value == "" && y[i].disabled == false && y[i].id != "img") {
+        document.getElementById(empty).innerHTML = "Please fill in all fields.";
         document.getElementById(empty).style.visibility = "visible";
         valid = false;
       }
 
       if (((y[i].id === "minQ" && y[i].disabled == false) || y[i].id === "noOfQ") && isNaN(y[i].value)) {
-        document.getElementById(notNum).style.visibility = "visible";
+        document.getElementById(empty).innerHTML = "Number field is not a number.";
+        document.getElementById(empty).style.visibility = "visible";
         valid = false;
       }
     }
   }
   else {
     empty = empty + currentTab
-    notNum = notNum + currentTab
     for (i = 0; i < y.length; i++) {
       if (y[i].value == "" && window.getComputedStyle(document.getElementById(y[i].id)).visibility==="visible" && !y[i].id.includes("label")) {
-        console.log(y[i].id)
-        console.log(window.getComputedStyle(document.getElementById(y[i].id)).visibility)
+        document.getElementById(empty).innerHTML = "Please fill in all fields.";
         document.getElementById(empty).style.visibility = "visible";
         valid = false;
+        return false;
       }
 
       if(y[i].id.includes("tokensQ") && isNaN(y[i].value)){
-        document.getElementById(notNum).style.visibility = "visible";
+        document.getElementById(empty).innerHTML = "Number field is not a number.";
+        document.getElementById(empty).style.visibility = "visible";
         valid = false;
+        return valid;
       }
+
+      var multiple = "multipleQ" + currentTab;
+      var ans = "ansQ" + currentTab;
+      if(document.getElementById(multiple).style.visibility === "visible"){
+
+        var total = x[currentTab].querySelectorAll('input[type="checkbox"]').length
+        var checked = x[currentTab].querySelectorAll('input[type="checkbox"]:checked').length
+
+        if(total === 0){
+          document.getElementById(empty).innerHTML = "Please provide answer options.";
+          document.getElementById(empty).style.visibility = "visible";
+          valid=false;
+        }
+        else if(checked === 0){
+          document.getElementById(empty).innerHTML = "Please provide correct options by checking them.";
+          document.getElementById(empty).style.visibility = "visible";
+          valid=false;
+        }
+        else{
+          document.getElementById(empty).style.visibility = "hidden";
+        }
+        console.log(total + " " + checked);
+      }
+
     }
   }
 
   // If the valid status is true, mark the step as finished and valid:
   if (valid) {
-    document.getElementById(notNum).style.visibility = "hidden";
     document.getElementById(empty).style.visibility = "hidden";
   }
 
@@ -156,7 +189,7 @@ function constructDiv(n) {
     '<button id="addAnsQ' + n + '"  type="button" onclick="addOptions(' + n + ')">+</button>' +
     '<input style="vertical-align: center;" id="labelQ' + n + '" type="text"></input>' +
     '<div style="overflow-y:auto; max-height: 100px;"class="answersQ' + n + '"></div></div>'
-  var errors = '<p id="emptyInput' + n + '" style="padding-left:20px; color:red; visibility: hidden;">Please fill out all inputs.</p><p id="notNumber' + n + '" style="padding-left:20px; color:red; visibility: hidden;">Value is not a valid number.</p>'
+  var errors = '<p id="emptyInput' + n + '" style="padding-left:20px; color:red; visibility: hidden;"></p>'
   var finalDiv = '<div class="tab"><div class="question-backround">' + qHeader + selectList + tokens + text + noAns + inputAns + multiple + '</div>' + errors + '</div>'
   return finalDiv
 }
