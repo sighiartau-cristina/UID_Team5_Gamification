@@ -20,17 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/idea_avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/learning_avatar_man.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/learning_avatar_woman.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/submitted_assignment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/upload_assignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/js/osmanli_calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/organizatoric-reasons-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/submit-documents-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/withdraw-documents-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/professor_pages/prof_upload/prof_upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/prof_upload/prof_upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/courses-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/courses-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/review_page/review_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/review_page/review_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/student_pages/student_UID_course/uid_course_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_UID_course/uid_course_student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_page/student_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_page/student_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_quiz/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_quiz/quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_upload/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_upload/submitted_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/submitted_assignment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_upload/upload_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/upload_assignment.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,9 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -73,10 +80,10 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\images" />
+      <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\appointment_pages\js" />
+      <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\appointment_pages\scss" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Trousers_icons" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Tshirt_icons" />
-      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\shoes_icons" />
-      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\student_upload" />
@@ -98,7 +105,7 @@
       <workItem from="1609060395554" duration="3399000" />
       <workItem from="1609090712818" duration="7061000" />
       <workItem from="1609144580078" duration="6548000" />
-      <workItem from="1609505956338" duration="25230000" />
+      <workItem from="1609505956338" duration="37001000" />
     </task>
     <servers />
   </component>
@@ -116,5 +123,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="480" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609689972867">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="480" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1609689972867" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1609689412249">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1609689412249" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609689143812">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609689143812" />
   </component>
 </project>
