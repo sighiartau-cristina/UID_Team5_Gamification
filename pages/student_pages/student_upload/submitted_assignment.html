@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>UID Course</title>
+  <title>Assignment</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -14,10 +14,12 @@
   <script src="../../../js/popper.js"></script>
   <script src="../../../js/bootstrap.min.js"></script>
   <script src="../../../js/main.js"></script>
-  <script src="main.js"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
+
+  <script src="https://cdn.jsdelivr.net/gh/mathusummut/confetti.js/confetti.min.js"></script><script>confetti.start()</script>
 
   <div class="wrapper d-flex align-items-stretch">
     <nav id="sidebar">
@@ -152,66 +154,34 @@
         </div>
       </nav>
 
-      <div class="course-header">
-        <img class="course-logo" src="../../../images/icons/UID_logo.png" />
-        <div class="course-header-group">
-          <h2>User Interface Design</h2>
-          <h4>Professor: Dorian Gorgan</h4>
+      <h2>Assignment 1</h2>
+
+      <div class="after-submission-background">
+        <div class="inside-window">
+          <br>
+          <br>
+          <p style="color: #d39e00; margin-left: 15px; font-size: x-large; text-align: center;">You've submitted your assignment!</p>
+          <br>
+          <p style="color: #d39e00; margin-left: 15px; font-size: large; text-align: center;">~ 150 tokens earned ~</p>
+          <br>
+          <p style="color: #d39e00; margin-left: 15px; font-size: large; text-align: center;">~ For early submission: +40 tokens ~</p>
+        </div>
+        <br>
+        <br>
+        <div style="display: flex;justify-content: space-around">
+          <button style="background-color: #d39e00; border-radius: 25px; width: 200px; height: 50px" onclick="window.location.href='../student_page/student_page.html'">Cancel</button>
+          <button style="background-color: #d39e00; border-radius: 25px; width: 200px; height: 50px" onclick="window.location.href='../../boutique_pages/clothes_page.html'">Go to store</button>
         </div>
       </div>
 
-      <div>
-        <a style="text-decoration: underline; color:cornflowerblue" href="#">
-          <h2> <img src="../../../images/icons/course-forum-logo.png"> Forum</h2>
-        </a>
+      <div style="position:absolute; left:330px; top:750px;">
+        <img style="width: 140px; height: 150px" src='../../../images/learning_avatar_man.jpg' />
       </div>
 
-      <h2>Upcoming activities: <a id="upcomingAct" class="link" href="#">Week 1 Quiz </a></h2>
-      <div class="quizpopup" id="quizpopup">Enter the key:
-        <input type="text" id="quizKey">
-        <button id="startQuiz">Start Quiz >>></button>
-        <p style="visibility: hidden; color:red" id="incorrectKey">The quiz key is incorrect.</p>
+      <div style="position:absolute; left:1100px; top:760px;">
+        <img style="width: 115px; height: 145px" src='../../../images/learning_avatar_woman.jpg' />
       </div>
 
-      <hr>
-
-      <div class="week-act">
-        <h2>This week</h2>
-        <ul class="list-unstyled components mb-5">
-          <li>
-            <a href="#courseSubmenuw1" style="color:black" data-toggle="collapse" aria-expanded="false">Course: Tue 8-10
-              am <div style="font-size: 15px; display: inline;">▼</div></a>
-            <ul class="collapse list-unstyled" id="courseSubmenuw1">
-              <li>
-                <img src="../../../images/icons/lab-res-logo.png"><a href="#">Course Resources W1</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="list-unstyled components mb-5">
-          <li>
-            <a href="#labSubmenuw1" style="color:black" data-toggle="collapse" aria-expanded="false">Lab: Wed 8-11 am
-              <div style="font-size: 15px; display: inline;">▼</div></a>
-            <ul class="collapse list-unstyled" id="labSubmenuw1">
-              <li>
-                <img src="../../../images/icons/lab-work-logo.png"><a href="#">Lab Work W1</a>
-              </li>
-              <li>
-                <img src="../../../images/icons/lab-res-logo.png"><a href="#">Lab Resources W1</a>
-              </li>
-              <li>
-                <img src="../../../images/icons/lab-assig-logo.png"><a href="../student_upload/upload_assignment.html">Lab Assignment Upload</a>
-              </li>
-              <li>
-                <img src="../../../images/icons/quiz-logo.png"><a href="#" onclick="confirmQuizKey()">Week 1 Quiz</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
-      <hr>
-      <h2>Your badges for this course:</h2>
-      <h4 style="padding-left: 40px;">No badges yet ☹. Take some quizzes first and come back.</h4>
     </div>
   </div>
 </body>

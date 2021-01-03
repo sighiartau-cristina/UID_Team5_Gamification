@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/images/idea_avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning_avatar_man.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/learning_avatar_woman.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/submitted_assignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/upload_assignment.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/boutique_pages/clothes_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/clothes_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/boutique_pages/css/clothes_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/css/clothes_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_page/student_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_page/student_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professor_pages/prof_upload/prof_upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/prof_upload/prof_upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_UID_course/uid_course_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_UID_course/uid_course_student.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +49,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="eb0bac6e-d1ad-43d3-81d6-1ed902c074b7" />
   <component name="ProjectId" id="1m14jG441EudbrIimjxaqZOOoXv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +59,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/login_page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/student_pages/student_upload" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,15 +71,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\login_page" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\images" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Trousers_icons" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Tshirt_icons" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\shoes_icons" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons" />
-      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\student_upload" />
+      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\login_page" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,6 +98,7 @@
       <workItem from="1609060395554" duration="3399000" />
       <workItem from="1609090712818" duration="7061000" />
       <workItem from="1609144580078" duration="6548000" />
+      <workItem from="1609505956338" duration="25230000" />
     </task>
     <servers />
   </component>
