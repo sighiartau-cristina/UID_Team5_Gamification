@@ -6,36 +6,17 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/calendar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/js/osmanli_calendar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/organizatoric-reasons-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/submit-documents-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/withdraw-documents-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/courses-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/courses-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/review_page/review_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/review_page/review_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_UID_course/uid_course_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_UID_course/uid_course_student.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_page/student_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_page/student_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_quiz/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_quiz/quiz.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_upload/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_upload/submitted_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/submitted_assignment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_upload/upload_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/upload_assignment.html" afterDir="false" />
-    </list>
+    <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -58,15 +39,19 @@
   </component>
   <component name="JupyterTrust" id="eb0bac6e-d1ad-43d3-81d6-1ed902c074b7" />
   <component name="ProjectId" id="1m14jG441EudbrIimjxaqZOOoXv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/student_pages/student_upload" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/elisaaaaaa.patch" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,6 +63,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\student_upload" />
+      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\login_page" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\images" />
       <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\appointment_pages\js" />
@@ -85,15 +74,12 @@
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Trousers_icons" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Tshirt_icons" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\student_upload" />
-      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\login_page" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="" />
+      <changelist id="fa716be8-260a-4150-93dd-4aed675fec60" name="elisaaaaaa" comment="" />
       <created>1608647897239</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -106,7 +92,16 @@
       <workItem from="1609090712818" duration="7061000" />
       <workItem from="1609144580078" duration="6548000" />
       <workItem from="1609505956338" duration="37001000" />
+      <workItem from="1609713473095" duration="11667000" />
     </task>
+    <task id="LOCAL-00001">
+      <created>1609721035633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609721035633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,25 +112,67 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="480" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609689972867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="480" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1609689972867" />
+    <state x="376" y="85" width="745" height="655" key="CommitChangelistDialog2" timestamp="1609730239156">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="376" y="85" width="745" height="655" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609730239156" />
+    <state x="470" y="107" width="864" height="826" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609721035640" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1609689412249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1609689412249" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609721644315">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1609721644315" />
+    <state x="184" y="86" key="MergeDialog" timestamp="1609721665577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609721665577" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1609718909631">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1609718909631" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609689143812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609689143812" />
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1609730143735">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609730143735" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609714132340" />
+    <state x="611" y="221" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1609721647268">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="611" y="221" key="vcs.ApplyPatchDifferentiatedDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1609721647268" />
   </component>
 </project>

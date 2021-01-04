@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Review</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../../css/style.css">
+
+    <script src="../../../js/jquery.min.js"></script>
+    <script src="../../../js/popper.js"></script>
+    <script src="../../../js/bootstrap.min.js"></script>
+    <script src="../../../js/main.js"></script>
+    <script src="js/summary.js"></script>
+</head>
+<body>
+<div class="wrapper d-flex align-items-stretch">
+    <nav id="sidebar">
+        <div class="p-4 pt-5">
+            <div id=userName>Name</div>
+            <div class="img logo rounded-circle mb-5" style="background-image: url(../../../images/avatar.jpg)">
+            </div>
+            <ul class="list-unstyled components mb-5">
+                <li>
+                    <a href="#boutiqueSubmenu" data-toggle="collapse" aria-expanded="false"
+                       class="dropdown-toggle">Boutique</a>
+                    <ul class="collapse list-unstyled" id="boutiqueSubmenu">
+                        <li>
+                            <a href="../../boutique_pages/clothes_page.html">Clothes</a>
+                        </li>
+                        <li>
+                            <a href="../../boutique_pages/accessories_page.html">Accessories</a>
+                        </li>
+                        <li>
+                            <a href="../../boutique_pages/quotes_page.html">Quotes</a>
+                        </li>
+                        <li>
+                            <a href="../../boutique_pages/outfits_page.html">Outfits</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#coursesSubmenu" data-toggle="collapse" aria-expanded="false"
+                       class="dropdown-toggle">Courses</a>
+                    <ul class="collapse list-unstyled" id="coursesSubmenu">
+                        <li>
+                            <a href="../student_UID_course/uid_course_student.html">User Interface Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Database Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Distributed Systems</a>
+                        </li>
+                        <li>
+                            <a href="#">Project Management</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#appointmentsSubmenu" data-toggle="collapse" aria-expanded="false"
+                       class="dropdown-toggle">Appointments</a>
+                    <ul class="collapse list-unstyled" id="appointmentsSubmenu">
+                        <li>
+                            <a href="../appointment_pages/withdraw-documents-page.html">Withdraw documents</a>
+                        </li>
+                        <li>
+                            <a href="../appointment_pages/submit-documents-page.html">Submit documents</a>
+                        </li>
+                        <li>
+                            <a href="../appointment_pages/organizatoric-reasons-page.html">Organizatoric reasons</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#accountSubmenu" data-toggle="collapse" aria-expanded="false"
+                       class="dropdown-toggle">Account Settings</a>
+                    <ul class="collapse list-unstyled" id="accountSubmenu">
+                        <li>
+                            <a href="../../account_settings_pages/customize_avatar_page.html">Customize your
+                                avatar</a>
+                        </li>
+                        <li>
+                            <a href="../../account_settings_pages/security_settings_page.html">Security settings</a>
+                        </li>
+                        <li>
+                            <a href="../../account_settings_pages/permissions_page.html">Permissions</a>
+                        </li>
+                        <li>
+                            <a href="../../account_settings_pages/about_page.html">About</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <button id="sidebarCollapse" class="btn btn-primary">Logout</button>
+            <div class="footer">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+                    is made with <i class="icon-heart" aria-hidden="true" style="color:#5fa7f3"></i> by <a
+                        style="color:#5fa7f3" href="https://colorlib.com" target="_blank">Colorlib.com</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div style="color: black;">Menu</div>
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="height:60px">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <div class="navbar-pair">
+                                <img class="navbar-logo" src='../../../images/icons/messages.PNG' />
+                                <a class="nav-link" href="#">Messages</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="navbar-pair">
+                                <img class="navbar-logo" src='../../../images/icons/quizzes_assignments.PNG' />
+                                <a class="nav-link current" href="../aux-pages/quiz-and-assig-page.html"
+                                   style="width:105%; line-height: 1;">Quizzes&
+                                    Assignments</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="navbar-pair">
+                                <img class="navbar-logo" src='../../../images/icons/courses.PNG' />
+                                <a class="nav-link" href="../aux-pages/courses-page.html">Courses</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="navbar-pair">
+                                <img class="navbar-logo" src='../../../images/icons/home.PNG' />
+                                <a class="nav-link" href="../student_page/student_page.html">Home</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <img style="position: absolute; top:150px; left:850px;" src="../../../images/icons/review-badge.png">
+        <h2>Quiz: Week 1 - review</h2>
+        <!-- One "tab" for each step in the form: -->
+
+        <div class="question-backround">
+            <h1 style="display: block; margin: auto;">Review</h1>
+            <br>
+            <div class="question-list">
+                <div class="question correct" id="question1">
+                    <h3 style="padding-left: 10px;">GUI stands for:</h3>
+                    <div class="question-answers">
+                        <p class="circle circle-none" id="question1a1">Graphical Utility Interface.</p>
+                        <p class="circle circle-none" id="question1a2">Graphical User Interface</p>
+                        <p class="circle circle-none" id="question1a3">Geographical User Internet.</p>
+                    </div>
+                </div>
+                <div class="question wrong" id="question2">
+                    <h3 style="padding-left: 10px;">What is mitochondria?</h3>
+                    <div class="question-answers">
+                        <p class="circle circle-check-simple" id="question2a1">The powerhouse of the cell.</p>
+                        <p class="circle circle-x" id="question2a2">An animal.</p>
+                        <p class="circle circle-none" id="question2a3">An energy-generating organism.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="question-buttons">
+                <a href="review_page.html">>
+                    <button>Finish</button>
+                </a>
+                <button>Download PDF</button>
+            </div>
+        </div>
+
+    </div></div>
+</body>
+</html>

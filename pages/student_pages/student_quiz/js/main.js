@@ -87,9 +87,17 @@ function nextPrev(n) {
     if($('input[name="q1"]:checked').val()==='2') correctAnsw++;
     if($('input[name="q2"]:checked').val()==='1') correctAnsw++;
 
+    console.log($('input[name="q1"]:checked').val());
+
+    localStorage.setItem("givenAnswer1",$('input[name="q1"]:checked').val());
+    localStorage.setItem("givenAnswer2",$('input[name="q2"]:checked').val());
+    localStorage.setItem("correctAnswer1",'2');
+    localStorage.setItem("correctAnswer2",'1');
+
     document.getElementById("corrAns").innerHTML = "Correct answers: " + correctAnsw + "/2";
     document.getElementById("tokens").innerHTML = "Tokens earned: " + correctAnsw*50;
     console.log(correctAnsw)
+    localStorage.setItem("corrAns",correctAnsw);
 
     modal.style.display = "block";
     

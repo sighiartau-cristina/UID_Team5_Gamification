@@ -8437,6 +8437,68 @@ a[data-toggle="collapse"] {
   max-height: 500px;
 }
 
+.question-list {
+  height: 300px;
+  overflow: auto;
+}
+
+.circle {
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+  background-position-y: 4px;
+}
+
+.circle-none{
+  background-image: url("../images/icons/answer/circle.svg");
+}
+
+.circle-check{
+  background-image: url("../images/icons/answer/check-circle.svg");
+  font-weight: bold;
+  color: green;
+}
+
+.circle-check-simple {
+  background-image: url("../images/icons/answer/check-circle-simple.svg");
+}
+
+.circle-x{
+  background-image: url("../images/icons/answer/x-circle.svg");
+  font-weight: bold;
+  color: #bd2130;
+}
+
+.question {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 10px #dde4f2;
+  margin: 10px;
+  padding: 2px 0px;
+  padding-left: 10px;
+}
+
+.question.correct {
+  border-left: 4px solid #1c7430;
+}
+
+.question.wrong {
+  border-left: 4px solid #bd2130;
+}
+
+.question p {
+  padding-left: 40px;
+}
+
+.question-buttons {
+  margin: 23px 0px;
+  display:flex;
+  justify-content: center;
+}
+
+.question-buttons a + button {
+  margin-left: 40px;
+}
+
 .question-backround>input{
   margin-left: 20px;
 }
