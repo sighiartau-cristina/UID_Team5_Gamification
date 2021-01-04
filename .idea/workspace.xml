@@ -16,7 +16,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="" />
+    <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forum_pages/forum_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forum_pages/forum_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" afterDir="false" />
+    </list>
+    <list id="cbbdc5e1-1c02-4504-b725-ee473dfae860" name="[elisa] forum-and-quiz-review-pages" comment="[elisa] forum-and-quiz-review-pages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +40,11 @@
     <option name="BRANCH" value="main" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ElisaTeea-Pop &lt;elisapop37@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="eb0bac6e-d1ad-43d3-81d6-1ed902c074b7" />
@@ -79,7 +89,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="" />
-      <changelist id="fa716be8-260a-4150-93dd-4aed675fec60" name="elisaaaaaa" comment="" />
       <created>1608647897239</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -101,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609721035633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[elisa] forum-and-quiz-review-pages">
+      <created>1609731139910</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609731139910</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,17 +149,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="[elisa] forum-and-quiz-review-pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="[elisa] forum-and-quiz-review-pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1609689972867">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="480" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1609689972867" />
-    <state x="376" y="85" width="745" height="655" key="CommitChangelistDialog2" timestamp="1609730239156">
+    <state x="376" y="85" width="745" height="655" key="CommitChangelistDialog2" timestamp="1609731139373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="376" y="85" width="745" height="655" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609730239156" />
+    <state x="376" y="85" width="745" height="655" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609731139373" />
     <state x="470" y="107" width="864" height="826" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1609721035640" />
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1609689412249">
       <screen x="0" y="0" width="1536" height="824" />
@@ -161,9 +178,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1609718909631" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609689143812">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1609731166133">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609731166133" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609689143812" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1609730143735">
       <screen x="0" y="0" width="1536" height="824" />
