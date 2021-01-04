@@ -17,7 +17,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/chat_page/chat_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat_page/js/chat_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/account_settings_pages/about_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_settings_pages/about_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/account_settings_pages/customize_avatar_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_settings_pages/customize_avatar_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/account_settings_pages/permissions_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_settings_pages/permissions_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/account_settings_pages/security_settings_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_settings_pages/security_settings_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/boutique_pages/accessories_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/accessories_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/boutique_pages/clothes_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/clothes_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/boutique_pages/outfits_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/outfits_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/boutique_pages/quotes_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/quotes_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat_page/chat_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat_page/chat_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forum_pages/forum_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forum_pages/forum_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/forum_pages/forum_question_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forum_pages/forum_question_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professor_pages/aux_pages/courses-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/aux_pages/courses-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professor_pages/aux_pages/quiz-and-assig-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/aux_pages/quiz-and-assig-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professor_pages/prof_UID_course/uid_course_prof.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/prof_UID_course/uid_course_prof.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professor_pages/prof_page/prof_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/prof_page/prof_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professor_pages/prof_quiz/prof_quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/prof_quiz/prof_quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professor_pages/prof_review/prof_review.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/prof_review/prof_review.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/professor_pages/prof_upload/prof_upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/prof_upload/prof_upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/appointment_pages/organizatoric-reasons-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/organizatoric-reasons-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/appointment_pages/submit-documents-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/submit-documents-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/appointment_pages/withdraw-documents-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/appointment_pages/withdraw-documents-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/courses-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/courses-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/review_page/review_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/review_page/review_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/review_page/summary_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/review_page/summary_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_UID_course/uid_course_student.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_UID_course/uid_course_student.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_page/student_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_page/student_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_quiz/quiz.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_quiz/quiz.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_upload/submitted_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/submitted_assignment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/student_pages/student_upload/upload_assignment.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/student_upload/upload_assignment.html" afterDir="false" />
     </list>
     <list id="cbbdc5e1-1c02-4504-b725-ee473dfae860" name="[elisa] forum-and-quiz-review-pages" comment="[elisa] forum-and-quiz-review-pages" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +60,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -181,9 +212,10 @@
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609731166133" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609689143812" />
-    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1609730143735">
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1609765190109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/1920.-115.2048.1112@0.0.1536.824" timestamp="1609765190109" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609730143735" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609714132340" />
     <state x="611" y="221" key="vcs.ApplyPatchDifferentiatedDialog" timestamp="1609721647268">
