@@ -11,15 +11,13 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/forum_pages/forum_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forum_pages/forum_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/student_pages/aux-pages/quiz-and-assig-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/chat_page/chat_page.html" afterDir="false" />
     </list>
     <list id="cbbdc5e1-1c02-4504-b725-ee473dfae860" name="[elisa] forum-and-quiz-review-pages" comment="[elisa] forum-and-quiz-review-pages" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
