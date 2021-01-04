@@ -8,48 +8,42 @@
 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../../../css/style.css">
-
-    <script src="../../../js/jquery.min.js"></script>
-    <script src="../../../js/popper.js"></script>
-    <script src="../../../js/bootstrap.min.js"></script>
-    <script src="../../../js/main.js"></script>
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="css/forum_style.css">
 </head>
 
 <body>
-
     <div class="wrapper d-flex align-items-stretch">
         <nav id="sidebar">
             <div class="p-4 pt-5">
                 <div id=userName>Name</div>
-                <div class="img logo rounded-circle mb-5" style="background-image: url(../../../images/avatar.jpg)">
+                <div class="img logo rounded-circle mb-5" style="background-image: url(../../images/avatar.jpg)">
                 </div>
                 <ul class="list-unstyled components mb-5">
                     <li>
                         <a href="#boutiqueSubmenu" data-toggle="collapse" aria-expanded="false"
-                            class="dropdown-toggle">Boutique</a>
+                           class="dropdown-toggle">Boutique</a>
                         <ul class="collapse list-unstyled" id="boutiqueSubmenu">
                             <li>
-                                <a href="../../boutique_pages/clothes_page.html">Clothes</a>
+                                <a href="../boutique_pages/clothes_page.html">Clothes</a>
                             </li>
                             <li>
-                                <a href="../../boutique_pages/accessories_page.html">Accessories</a>
+                                <a href="../boutique_pages/accessories_page.html">Accessories</a>
                             </li>
                             <li>
-                                <a href="../../boutique_pages/quotes_page.html">Quotes</a>
+                                <a href="../boutique_pages/quotes_page.html">Quotes</a>
                             </li>
                             <li>
-                                <a href="../../boutique_pages/outfits_page.html">Outfits</a>
+                                <a href="../boutique_pages/outfits_page.html">Outfits</a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="#coursesSubmenu" data-toggle="collapse" aria-expanded="false"
-                            class="dropdown-toggle">Courses</a>
+                           class="dropdown-toggle">Courses</a>
                         <ul class="collapse list-unstyled" id="coursesSubmenu">
                             <li>
-                                <a href="../student_UID_course/uid_course_student.html">User Interface Design</a>
+                                <a href="../student_pages/student_UID_course/uid_course_student.html">User Interface Design</a>
                             </li>
                             <li>
                                 <a href="#">Database Design</a>
@@ -64,35 +58,35 @@
                     </li>
                     <li>
                         <a href="#appointmentsSubmenu" data-toggle="collapse" aria-expanded="false"
-                            class="dropdown-toggle">Appointments</a>
+                           class="dropdown-toggle">Appointments</a>
                         <ul class="collapse list-unstyled" id="appointmentsSubmenu">
                             <li>
-                                <a href="../appointment_pages/withdraw-documents-page.html">Withdraw documents</a>
+                                <a href="../student_pages/appointment_pages/withdraw-documents-page.html">Withdraw documents</a>
                             </li>
                             <li>
-                                <a href="../appointment_pages/submit-documents-page.html">Submit documents</a>
+                                <a href="../student_pages/appointment_pages/submit-documents-page.html">Submit documents</a>
                             </li>
                             <li>
-                                <a href="../appointment_pages/organizatoric-reasons-page.html">Organizatoric reasons</a>
+                                <a href="../student_pages/appointment_pages/organizatoric-reasons-page.html">Organizatoric reasons</a>
                             </li>
                         </ul>
                     </li>
                     <li>
                         <a href="#accountSubmenu" data-toggle="collapse" aria-expanded="false"
-                            class="dropdown-toggle">Account Settings</a>
+                           class="dropdown-toggle">Account Settings</a>
                         <ul class="collapse list-unstyled" id="accountSubmenu">
                             <li>
-                                <a href="../../account_settings_pages/customize_avatar_page.html">Customize your
+                                <a href="../account_settings_pages/customize_avatar_page.html">Customize your
                                     avatar</a>
                             </li>
                             <li>
-                                <a href="../../account_settings_pages/security_settings_page.html">Security settings</a>
+                                <a href="../account_settings_pages/security_settings_page.html">Security settings</a>
                             </li>
                             <li>
-                                <a href="../../account_settings_pages/permissions_page.html">Permissions</a>
+                                <a href="../account_settings_pages/permissions_page.html">Permissions</a>
                             </li>
                             <li>
-                                <a href="../../account_settings_pages/about_page.html">About</a>
+                                <a href="../account_settings_pages/about_page.html">About</a>
                             </li>
                         </ul>
                     </li>
@@ -112,15 +106,14 @@
             </div>
         </nav>
 
-        <!-- Page Content  -->
         <div id="content" class="p-4 p-md-5">
 
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
                     <div style="color: black;">Menu</div>
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa fa-bars"></i>
                     </button>
 
@@ -128,55 +121,96 @@
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item">
                                 <div class="navbar-pair">
-                                    <img class="navbar-logo" src='../../../images/icons/messages.PNG' />
+                                    <img class="navbar-logo" src='../../images/icons/messages.PNG' />
                                     <a class="nav-link" href="#">Messages</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <div class="navbar-pair">
-                                    <img class="navbar-logo" src='../../../images/icons/quizzes_assignments.PNG' />
-                                    <a class="nav-link current" href="../aux-pages/quiz-and-assig-page.html"
-                                        style="width:105%; line-height: 1;">Quizzes&
+                                    <img class="navbar-logo" src='../../images/icons/quizzes_assignments.PNG' />
+                                    <a class="nav-link" href="../student_pages/aux-pages/quiz-and-assig-page.html"
+                                       style="width:105%; line-height: 1;">Quizzes&
                                         Assignments</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <div class="navbar-pair">
-                                    <img class="navbar-logo" src='../../../images/icons/courses.PNG' />
-                                    <a class="nav-link" href="../aux-pages/courses-page.html">Courses</a>
+                                    <img class="navbar-logo" src='../../images/icons/courses.PNG' />
+                                    <a class="nav-link current" href="../student_pages/aux-pages/courses-page.html">Courses</a>
                                 </div>
                             </li>
                             <li class="nav-item">
                                 <div class="navbar-pair">
-                                    <img class="navbar-logo" src='../../../images/icons/home.PNG' />
-                                    <a class="nav-link" href="../student_page/student_page.html">Home</a>
+                                    <img class="navbar-logo" src='../../images/icons/home.PNG' />
+                                    <a class="nav-link" href="../student_pages/student_page/student_page.html">Home</a>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
-            <img style="position: absolute; top:150px; left:850px;" src="../../../images/icons/review-badge.png">
-            <h2>Quiz: Week 1 - review</h2>
+            <h2>Forum: User Interface Design</h2>
             <!-- One "tab" for each step in the form: -->
 
-            <div class="question-backround" style="padding: 20px">
-                <h1 style="display: block; margin: auto;">Review</h1>
+            <div class="forum-question-background">
+                <div class="question-avatar">
+                    <img class='forum-logo-main' src='../../images/profilepic5.PNG' />
+                    <h4>Matt</h4>
+                </div>
+                <div>
+                    <h4>How do you create a prototype?</h4>
+                    <p>Hi, I was recently looking through the requirements of the last laboratory and we were asked to create a prototype for our design. What exactly does that mean? Do we have some tutorials available?</p>
+                </div>
                 <br>
-                <h3 id="totalCorrectAnswers"></h3>
+            </div>
+
+            <div class="forum-answer">
+                <div class="question-avatar">
+                    <img class='forum-logo' src='../../images/profilepic6.PNG' />
+                </div>
+                <div>
+                    <h4>Lavinia</h4>
+                    <p>Hey Matt, now that you mention it, I forgot to add the resources! I've uploaded them now, they should be found at the lab resources.</p>
+                </div>
                 <br>
-                <h3 id="grade"></h3>
-                <h3>Tokens earned: 100</h3>
+            </div>
+
+            <div class="forum-answer">
+                <div class="question-avatar">
+                    <img class='forum-logo' src='../../images/profilepic1.PNG' />
+                </div>
+                <div>
+                    <h4>Coman</h4>
+                    <p>Google? Haha.</p>
+                </div>
                 <br>
+            </div>
+
+            <div class="forum-answer hidden" id="your-answer">
+                <div class="question-avatar">
+                    <div class="forum-logo img rounded-circle" style="background-image: url(../../images/avatar.jpg)">
+                    </div>
+                </div>
+                <div>
+                    <h4>Viorel</h4>
+                    <p id="answerText"></p>
+                </div>
                 <br>
-                <br>
-                <a href="summary_page.html">
-                    <button style="margin-left:20px;" >Review</button>
-                </a>
+            </div>
+
+            <div class="forum-input">
+                <input type="text" placeholder="Leave a comment here..." id="inputText">
+                <button id="form-submit">Enter</button>
             </div>
 
         </div>
     </div>
+
+    <script src="../../js/jquery.min.js"></script>
+    <script src="../../js/popper.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/main.js"></script>
+    <script src="js/forum_question_page.js"></script>
 </body>
 
 </html>
