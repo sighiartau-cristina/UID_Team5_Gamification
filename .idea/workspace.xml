@@ -17,17 +17,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbacc730-39ab-45e1-9340-be48b7c1f004" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/chat_page/js/chat_page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/logout_functionality.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/logout_functionality_L1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/account_settings_pages/about_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_settings_pages/about_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/account_settings_pages/customize_avatar_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_settings_pages/customize_avatar_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/account_settings_pages/permissions_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_settings_pages/permissions_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/account_settings_pages/security_settings_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account_settings_pages/security_settings_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/boutique_pages/accessories_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/accessories_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/boutique_pages/clothes_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/clothes_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/boutique_pages/js/clothes.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/js/clothes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/boutique_pages/outfits_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/outfits_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/boutique_pages/quotes_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/boutique_pages/quotes_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/chat_page/chat_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat_page/chat_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chat_page/js/chat_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chat_page/js/chat_page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/forum_pages/forum_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forum_pages/forum_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/forum_pages/forum_question_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/forum_pages/forum_question_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/professor_pages/aux_pages/courses-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/professor_pages/aux_pages/courses-page.html" afterDir="false" />
@@ -102,16 +106,16 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\student_upload" />
-      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\login_page" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\images" />
       <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\appointment_pages\js" />
       <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\appointment_pages\scss" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Trousers_icons" />
       <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\images\icons\Tshirt_icons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\teodora.farcas.3PILLAR\Desktop\UID Project\UID_Team5_Gamification\pages\student_pages\student_upload" />
+      <recent name="D:\UID_IMPLEMENTATION\UID_Team5_Gamification\login_page" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -131,6 +135,8 @@
       <workItem from="1609144580078" duration="6548000" />
       <workItem from="1609505956338" duration="37001000" />
       <workItem from="1609713473095" duration="11667000" />
+      <workItem from="1609913308284" duration="959000" />
+      <workItem from="1609931229549" duration="2965000" />
     </task>
     <task id="LOCAL-00001">
       <created>1609721035633</created>
@@ -163,7 +169,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -186,6 +192,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="480" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1609689972867" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1609932513706">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.-115.2048.1112@0.0.1536.824" timestamp="1609932513706" />
     <state x="376" y="85" width="745" height="655" key="CommitChangelistDialog2" timestamp="1609731139373">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -212,6 +222,10 @@
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1609731166133" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609689143812" />
+    <state x="478" y="11" width="579" height="801" key="find.popup" timestamp="1609932137713">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="11" width="579" height="801" key="find.popup/0.0.1536.824/1920.-115.2048.1112@0.0.1536.824" timestamp="1609932137713" />
     <state x="498" y="178" width="672" height="538" key="search.everywhere.popup" timestamp="1609765190109">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

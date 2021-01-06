@@ -1,4 +1,7 @@
 window.onload  = function () {
+
+
+
     allBuyButtons = document.getElementsByClassName("buy_btn");
     available_tokens = document.getElementById("available_tokens");
 
@@ -8,6 +11,11 @@ window.onload  = function () {
         currentBuyBtn.onclick = function () {
             addBtnFunctionality(this,available_tokens)
         }
+    }
+
+    var logoutBTN = document.getElementById("logout_btn");
+    logoutBTN.onclick = function () {
+        window.location.href = '../login_page/login_page.html';
     }
 }
 
